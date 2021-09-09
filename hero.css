@@ -1,3 +1,9 @@
+main {
+    background-image: url("img/wolf.svg");
+    background-repeat: no-repeat;
+    background-position: top 80% left 0;
+}
+
 .hero {
     min-height:100vh;
     background-image: url("img/background.png");

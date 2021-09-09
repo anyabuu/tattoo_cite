@@ -11,3 +11,24 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
+
+.container-small {
+    width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.line::after {
+    content:"";
+    display: block;
+    width: 171px;
+    height: 1px;
+    background-color: #DA3414;
+    margin-top: 15px;
+}
