@@ -1,18 +1,11 @@
-main {
-    background-image: url("img/wolf.svg");
-    background-repeat: no-repeat;
-    background-position: top 80% left 0;
-}
 
 .hero {
     min-height:100vh;
     background-image: url("img/background.png");
-    background-size: cover;
-    display: flex;
-    flex-direction: column;  
+    background-size: cover; 
 }
 
-header nav {
+.header__nav {
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.3;
@@ -23,39 +16,37 @@ header nav {
     padding-top: 39px;
 }
 
-header ul {
+.header__list {
     display: flex;
     gap: 86px;
     align-items: center;
 }
 
-.hero_content {
+
+.hero-content__container{
+    width: 570px;  
     padding-top: 217px;
 }
 
-.hero_text {
-    width: 570px;  
-}
-
-h1 {
+.hero-conent__title {
     font-weight: 500;
     font-size: 8rem;
     line-height: 1.2;
     padding-bottom: 20px;
 }
 
-.hero_text p {
+.hero-content__text {
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.5;
     padding-bottom: 30px;
 }
 
-.button {
+.hero-content__button {
     display: flex;
 }
 
-.button a {
+.hero-content__link {
     width: 245px;
     text-transform: uppercase;
     font-weight: 500;

@@ -1,17 +1,14 @@
 
-.about {
+.about__container {
     padding-top: 173px;
-    
-}
-
-.about > div:first-child {
     display: flex;
     gap: 100px;
     align-items: center;
     margin-bottom: 170px;
 }
 
-.about_us_cont p {
+
+.about__text {
     font-weight: 300;
     font-size: 2rem;
     line-height: 2;
@@ -19,11 +16,8 @@
     margin-top: 23px;
 }
 
-.about_us_cont p:last-child {
-    margin-bottom: 0px;
-}
 
-.choose h3 {
+.about__choose-title {
     font-weight: 700;
     font-size: 3rem;
     line-height: 1;
@@ -31,20 +25,21 @@
     padding-bottom: 65px;
 }
 
-.choose h4 {
+.about__choose-reasons {
+    display: flex;
+    gap:113px;
+}
+
+.about__choose-subtitle {
     font-weight: 400;
     font-size: 2rem;
     line-height: 1.5;
     padding-bottom: 15px;
 }
 
-.choose p {
+.about__choose-text {
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.3;
 }
 
-.choose ul {
-    display: flex;
-    gap:113px;
-}

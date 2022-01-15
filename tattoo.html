@@ -9,33 +9,33 @@
         <main>
            
 
-<!--HERO STARTS-->
-            <div class="hero">
-                <header>
-                    <div class="container">
-                        <nav>
-                            <ul>
-                                <li> 
-                                    <a href="#">
+<!--HERO SECTION STARTS-->
+            <section class="hero">
+                <header class="header">
+                    <div class="container header__container">
+                        <nav class="header__nav">
+                            <ul class="header__list">
+                                <li class="header__list-item"> 
+                                    <a class="header__link" href="#about">
                                         About Us
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
+                                <li class="header__list-item">
+                                    <a class="header__link" href="#">
                                         Portfolio
                                     </a>
                                 </li>
-                                <li>
-                                    <img src="img/logo.svg" alt="this is photo">
-                                    <img src="img/text_logo.svg" alt="this is photo">
+                                <li class="header__list-item">
+                                    <img class="header__logo" src="img/logo.svg" alt="this is photo">
+                                    <img class="header__text-logo" src="img/text_logo.svg" alt="this is photo">
                                 </li>
-                                <li>
-                                    <a href="#">
+                                <li class="header__list-item">
+                                    <a class="header__link" href="#">
                                         Masters
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
+                                <li class="header__list-item">
+                                    <a class="header__link" href="#">
                                         Price
                                     </a>
                                 </li>
@@ -43,70 +43,70 @@
                         </nav>
                     </div>
                 </header>
-                <section class="hero_content">
-                    <div class="container">
-                        <div class="hero_text">
-                            <h1>
-                                Tattoo Studio
-                                “Ink House”
-                            </h1>
-                            <p>
-                                A team of professionals who make tattoos of any complexity, piercing and tattoo removal.
-                            </p>
-                            <div class="button">
-                                <a href="#">I want tattoo</a>
-                            </div>
+
+                <div class="hero-content container">
+                    <div class="hero-content__container">
+                        <h1 class="hero-conent__title">
+                            Tattoo Studio
+                            “Ink House”
+                        </h1>
+                        <p class="hero-content__text">
+                            A team of professionals who make tattoos of any complexity, piercing and tattoo removal.
+                        </p>
+                        <div class="hero-content__button">
+                            <a class="hero-content__link" href="#">I want tattoo</a>
                         </div>
                     </div>
-                </section>
-            </div>
+                </div>
 
-<!--HERO ENDS-->
+            </section>
+
+<!--HERO SECTION ENDS-->
 
 
-<!---ABOUT US STARTS-->
-            <section class="about">
-                <div class="container-small">
-                    <img src="img/about_us_pic.jpg" width="500" height="630" alt="this is aimage">
-                    <div class="about_us_cont">
-                        <h2 class="line">
+<!---ABOUT SECTION STARTS-->
+            <section class="about" id="about">
+                <div class="container-small about__container">
+                    <img class="about__image" src="img/about_us_pic.jpg" width="500" height="630" alt="this is aimage">
+                    <div class="about__content">
+                        <h2 class="about__title line">
                             About us
                         </h2>
-                        <p>
+                        <p class="about__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                         </p>
-                        <p>
+                        <p class="about__text">
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
                     </div>
                 </div>
-                <div class="choose">
+                <div class="about__choose">
                     <div class="container">
-                        <h3>
+                        <h3 class="about__choose-title">
                             Why should you choose us?
                         </h3>
-                        <ul>
-                            <li>
-                                <h4>
+                        <ul class="about__choose-reasons">
+                            <li class="about__choose-reasons-item">
+                                <h4 class="about__choose-subtitle">
                                     Professional tattoo artists
                                 </h4>
-                                <p>
+                                <p class="about__choose-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </li>
-                            <li>
-                                <h4>
+                            <li class="about__choose-reasons-item">
+                                <h4 class="about__choose-subtitle">
                                     Quality and sterility
                                 </h4>
-                                <p>
+                                <p class="about__choose-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </li>
-                            <li>
-                                <h4>
+                            <li class="about__choose-reasons-item">
+                                <h4 class="about__choose-subtitle">
                                     Cozy atmosphere
                                 </h4>
-                                <p>
+                                <p class="about__choose-text">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                                 </p>
                             </li>
@@ -115,7 +115,211 @@
                 </div>
             </section>
 
-<!---ABOUT US ENDS-->
+<!---ABOUT SECTION ENDS-->
+
+<!--SERVICES SECTION STARTS-->
+
+            <section class="services">
+                <div class="container-small services__container">
+                    <h2 class="services__title line">
+                        Our services
+                    </h2>
+                    <ul class="services__list">
+                        <li class="services__list-item">
+                            <h3 class="services__subtitle">
+                                Tattoo
+                            </h3>
+                            <a class="services__link" href="#">View more</a>
+                        </li>
+                        <li class="services__list-item">
+                            <h3 class="services__subtitle">
+                                Piercing
+                            </h3>
+                            <a class="services__link" href="#">View more</a>
+                        </li>
+                        <li class="services__list-item">
+                            <h3 class="services__subtitle">
+                                Tattoo removal
+                            </h3>
+                            <a class="services__link" href="#">View more</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </section>
+
+
+<!--SERVICES SECTION ENDS-->
+
+
+<!-- SIGN SECTION STARTS -->
+
+            <section class="sign">
+                <div class="container sign__container">
+                    <h2 class="sign__title line">
+                        Sign up for a free consultation
+                    </h2>
+                    <p class="sign__text">
+                        Sign up for a free consultation in order to discuss all the details with the tattoo artist
+                    </p>
+                    <div class="sign__phone">   
+                        <input class="sign__form" type="tel" name="phoneNumber" placeholder="Your mobile number" id="phoneNumber"> 
+                        <div class="singn__send-phone-button">
+                            <a class="sign__buttom-link" href="#">
+                                Send
+                            </a>
+                        </div>
+                    </div> 
+                    <p class="sign__small-text">
+                        Our manager will contact you within an hour 
+                    </p>
+                </div>
+            </section>
+
+
+<!-- SIGN SECTION ENDS -->
+
+
+<!--INST SECTION STARTS-->
+
+            <section class="inst">
+                <div class="container inst__container">
+                    <h2 class="inst__title line">
+                        Our instagram
+                    </h2>
+                    <p class="inst__text">
+                        All information about our tattoo studio, as well as information about the promotions, you can find on our page on Instagram.
+                    </p>
+                    <ul class="inst__img-list">
+                        <li class="inst__img-item">
+                            <img class="inst__image" src="img/first_inst-photo.jpg" alt="this is our inst photo">
+                        </li>
+                        <li class="inst__img-item">
+                            <img class="inst__image" src="img/second_inst-photo.jpg" alt="this is our inst photo">
+                        </li>
+                        <li class="inst__img-item">
+                            <img class="inst__image" src="img/third_inst-photo.jpg" alt="this is our inst photo">
+                        </li>
+                        <li class="inst__img-item">
+                            <img class="inst__image" src="img/forth_inst-photo.jpg" alt="this is our inst photo">
+                        </li>
+                    </ul>
+                    <div class="inst__button">
+                        <a class="inst__button-link" href="#">
+                            Follow us
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+
+<!--INST SECTION ENDS-->
+
+<!--CONTACTS SECTION STARTS-->
+
+            <section class="contact">
+                <div class="container contact__container">
+                    <div class="contact__content">
+                        <h2 class="contact__title">
+                            Contacts
+                        </h2>
+                        <ul class="contact__ways">
+                            <li class="contact__ways-item">
+                                <h4 class="contact__ways-subtitle">
+                                    Address
+                                </h4>
+                                <p class="contact__ways-text">
+                                    Fredensgade, 3,   2200 København, Denmark
+                                </p>
+                            </li>
+                            <li class="contact__ways-item">
+                                <h4 class="contact__ways-subtitle">
+                                    Telefone number
+                                </h4>
+                                <p class="contact__ways-text">
+                                    +45 (000)000-00-00
+                                </p>
+                            </li>
+                            <li class="contact__ways-item">
+                                <h4 class="contact__ways-subtitle">
+                                    Working hours
+                                </h4>
+                                <p class="contact__ways-text">
+                                    Monday-Friday
+                                    9 a.m. - 8 p.m.
+                                    Saturday 
+                                    11 a.m. - 6 p.m.
+                                    Sunday - day off
+                                </p>
+                            </li>
+                            <li class="contact__ways-item">
+                                <h4 class="contact__ways-subtitle">
+                                    Social networks
+                                </h4>
+                                <a class="contact__ways-item-link" href="#">
+                                    <img src="img/inst_icon.svg" class="contact__ways-item-socials" alt="this is our inst">
+                                </a>
+                                <a class="contact__ways-item-link" href="#">
+                                    <img src="img/robo_social.svg" class="contact__ways-item-socials" alt="this is our roboto">
+                                </a>
+                                <a class="contact__ways-item-link" href="#">
+                                    <img src="img/facebook_icon.svg" class="contact__ways-item-socials" alt="this is our facebook">
+                                </a>
+                                <a class="contact__ways-item-link" href="#">
+                                    <img src="img/twitter_icon.svg" class="contact__ways-item-socials" alt="this is our twitter">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact__image">
+                        <img class="contact__image-map" src="img/map.jpg" alt="this is map">
+                    </div>
+
+                </div>
+            </section>
+
+
+<!--CONTACTS SECTION ENDS-->
+
+
+<!--FOOTER SECTION STARTS-->
+
+
+            <section class="footer">
+                <div class="container footer__container">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item"> 
+                                <a class="header__link" href="#about">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="header__list-item">
+                                <a class="header__link" href="#">
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li class="header__list-item">
+                                <img class="header__logo" src="img/logo.svg" alt="this is photo">
+                                <img class="header__text-logo" src="img/text_logo.svg" alt="this is photo">
+                            </li>
+                            <li class="header__list-item">
+                                <a class="header__link" href="#">
+                                    Masters
+                                </a>
+                            </li>
+                            <li class="header__list-item">
+                                <a class="header__link" href="#">
+                                    Price
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+
+
+<!--FOOTER SECTION ENDS-->
 
       
             </main>

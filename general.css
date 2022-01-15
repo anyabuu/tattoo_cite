@@ -6,6 +6,12 @@ html {
     font-size: 10px;
 }
 
+main {
+    background-image: url("img/wolf.svg");
+    background-repeat: no-repeat;
+    background-position: top 80% left 0;
+}
+
 .container {
     width: 1170px;
     margin-left: auto;
