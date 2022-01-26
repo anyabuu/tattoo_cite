@@ -1,0 +1,28 @@
+
+.p-header__nav {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 39px;
+}
+
+.p-header__list {
+    display: flex;
+    gap: 86px;
+    align-items: center;
+}
+
+.checked-nav {
+    color: rgba(218, 52, 20, 1);
+    display: flex;
+    gap: 8px;
+
+}
+
+.p-header__pointer-img {
+    width: 10px;
+}

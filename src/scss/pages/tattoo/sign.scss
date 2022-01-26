@@ -1,0 +1,70 @@
+.sign__container {
+    margin-top: 100px;
+    margin-bottom: 135px;
+    text-align: center;
+    background-image: url(../img/sign_background.png);
+    background-size: cover; 
+    padding-top: 52px;
+    padding-bottom: 36px;
+}
+
+.sign__title {
+    font-size: 3rem;
+    color: #DA3414;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0.05em;
+}
+
+.sign__wrapper {
+    width: 415px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.sign__text {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 29px;
+    padding-bottom: 32px;
+}
+
+.sign__phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sign__form {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    height: 40px;
+    width: 270px;
+    border-radius: 8px;
+    padding: 5px 0px 5px 15px;
+    font-family: "Roboto Slab";
+}
+
+.sign__buttom-link {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.1;
+
+    width: 100px;
+    padding: 15px;
+    background: #DA3414;;
+    border-radius: 8px;  
+    text-align: center;
+
+}
+
+
+.sign__small-text {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    padding-top: 30px;
+}

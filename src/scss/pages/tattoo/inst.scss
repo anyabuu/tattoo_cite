@@ -1,0 +1,59 @@
+.inst__container {
+    margin-bottom: 170px;
+    text-align: center;
+
+}
+
+.inst__wrapper {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inst__title {
+    @include red-line-title;
+    &::after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.inst__text {
+    padding-top: 33px;
+    padding-bottom: 29px;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.inst__img-list {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 50px;
+}
+
+.inst__image {
+    width: 270px;
+}
+
+.inst__button {
+    display: flex;
+    justify-content: center;
+}
+
+
+.inst__button-link {
+
+    width: 230px;
+    font-family: 'Roboto Slab';
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+
+    padding: 15px;
+    background: #DA3414;;
+    border-radius: 8px;  
+    text-align: center;
+}

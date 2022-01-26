@@ -1,0 +1,15 @@
+@mixin red-line-title {
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 1;
+    
+    &::after {
+        content:"";
+        display: block;
+        width: 171px;
+        height: 1px;
+        background-color: #DA3414;
+        margin-top: 15px;
+    }
+    
+}

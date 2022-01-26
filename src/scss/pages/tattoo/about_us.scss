@@ -1,0 +1,48 @@
+
+.about__container {
+    padding-top: 173px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 170px;
+}
+
+.about__title {
+    @include red-line-title;
+}
+
+.about__text {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2;
+    margin-bottom: 36px;
+    margin-top: 23px;
+}
+
+
+.about__choose-title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    color: #DA3414;
+    padding-bottom: 65px;
+}
+
+.about__choose-reasons {
+    display: flex;
+    gap:113px;
+}
+
+.about__choose-subtitle {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.about__choose-text {
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+

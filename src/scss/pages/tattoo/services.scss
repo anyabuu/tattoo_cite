@@ -1,0 +1,77 @@
+.services__container {
+    padding-top: 131px;
+    padding-bottom: 93px;
+}
+
+.services__title {
+    @include red-line-title; 
+    text-align: center;
+    &::after {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.services__cards {
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1.28;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 49px;
+    align-items: center;  
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 271px;
+    height: 320px;
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-bottom: 40px;
+    
+    &:nth-child(1){
+        background-image: url(../img/tattooed_girl.jpg);
+        background-size: cover; 
+    }
+
+    &:nth-child(2){
+        background-image:url("../img/tonneled_boy.jpg");
+        background-size: cover; 
+          
+    }
+
+    &:nth-child(3){
+        background-image: url(../img/tattoed_hand.jpg);
+        background-size: cover; 
+    }
+
+    &:hover {
+        height: 370px;
+    }
+
+    &:hover > .services__link  {
+     display: inline-block;;
+    }
+  
+}
+
+.services__wrap {
+    display: flex;
+}
+
+
+
+.services__link {
+    display: none;
+    width: 180px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background: #DA3414;;
+    border-radius: 8px;  
+    text-align: center;
+    font-size: 2rem;
+
+}

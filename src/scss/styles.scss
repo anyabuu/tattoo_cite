@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
+@import "reset.scss";
+@import "mixins.scss";
+@import "general.scss";
+
+@import "pages/tattoo/hero.scss";
+@import "pages/tattoo/about_us.scss";
+@import "pages/tattoo/services.scss";
+@import "pages/tattoo/sign.scss";
+@import "pages/tattoo/inst.scss";
+@import "pages/tattoo/contact.scss";
+
+@import "footer.scss";
+
+@import "pages/portfolio/p-header.scss";
+@import "pages/portfolio/portfolio.scss";
